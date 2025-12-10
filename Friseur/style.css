@@ -7,9 +7,17 @@ body {
     color: #333;
 }
 
+p {
+    max-width: 110ch;
+}
+
 header {
     background-color: #40E0D0;
-    color: #fff;
+    background-image: url("./bild.webp");
+    background-size: cover;
+    background-position: center;
+    color: #40E0D0;
+    text-shadow: 2px 2px 4px #000000;
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +32,7 @@ header p {
 }
 
 nav {
-    background-color: #444;
+    background-color: #40E0D0;
     padding: 10px;
     text-align: center;
 }
@@ -76,7 +84,7 @@ section ul li {
 
 footer {
     background-color: #333;
-    color: #fffff;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
