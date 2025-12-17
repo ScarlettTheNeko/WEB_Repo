@@ -10,10 +10,21 @@ body {
 header {
     background-color: #1e1e1e;
     background-image: url("./ineos-grenadier-17.jpg");
-    color: #fff;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    color: #ffffff;
+    font-size: larger;
     text-shadow: 2px 2px 4px #000000;
     padding: 20px;
     text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1rem;
+    max-width: 80ch;
 }
 
 .header-container h1 {
@@ -131,9 +142,6 @@ footer a {
     color: #1e1e1e;
 }
 
-p {
-    max-width: 110ch;
-}
 
 #aktuelles p {
     margin: 8px 0;
