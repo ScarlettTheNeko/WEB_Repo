@@ -163,6 +163,13 @@ article {
   background-color: #ffff;
 }
 
+.input_vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
 footer {
   background-color: #3e4444;
   color: #ffffff;
