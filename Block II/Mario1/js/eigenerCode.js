@@ -8,6 +8,8 @@ function main() {
 }
 
 function buttyHandle(){
-    schrifty = document.getElementById("überschrift")
-    schrifty.innerHTML = "Mario!"
+    schrifty = document.getElementById("überschrift");
+    if (schrifty) {
+        schrifty.innerHTML = "Mario!";
+    }
 }
