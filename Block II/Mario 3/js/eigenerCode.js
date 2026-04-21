@@ -5,20 +5,19 @@ function main() {
     button.addEventListener("click", () => {
         buttyHandle();
     })
+
+    
+    protName = "Definetiv nicht MArio";
+
+    texts = [
+        "<b>" + protName + "</b> betritt das Level. Er fühlt sich klein. Er besitzt 0 Goldmünzen. <b>" + protName + "</b> kann nicht nach links gehen... also geht er nach rechts.",
+        "Nach einiger Zeit kommt eine fies blickende Kanonenkugel auf <b>" + protName + "</b> zugeflogen."
+    ];
+    currentIndex = 0;
 }
 
-protName = "Definetiv nicht MArio";
-
-texts = [
-    "<b>" + protName + "</b> betritt das Level. Er fühlt sich klein. Er besitzt 0 Goldmünzen. <b>" + protName + "</b> kann nicht nach links gehen... also geht er nach rechts.",
-    "Nach einiger Zeit kommt eine fies blickende Kanonenkugel auf <b>" + protName + "</b> zugeflogen."
-];
-currentIndex = 0;
 
 function buttyHandle(){
-    bildy = document.getElementById("bildy");
-    if (bildy) bildy.remove();
-
     schrifty = document.getElementById("gerahmterKasten");
     schrifty.innerHTML = "<p>" + texts[currentIndex] + "</p>";
 
