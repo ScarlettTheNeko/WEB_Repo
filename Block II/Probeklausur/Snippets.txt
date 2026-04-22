@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="style.css">
+
+<script src="code.js"></script>
+
+font-family: sans-serif;
+
+text-decoration: none;
+
+background-image: url("hierKommtIhrBildHin.jpg");
+
+background-size: cover;
+
+z-index: 1000;
+
+rgb(204, 109, 0)
+
+transform: translate(-50%, -50%);
+
+document.querySelector("#output1").innerHTML
+
+display: flex;
+
+justify-content: center;
