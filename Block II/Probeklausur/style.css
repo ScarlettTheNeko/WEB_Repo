@@ -1,12 +1,49 @@
 * {
-	
-	
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	
-	
-	
 }
 
+header {
+	width: 100%;
 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+header > img {
+	height: 80px;
+}
+
+.großerBanner {
+	height: 900px;
+	width: 100%;
+	background-size: cover;
+	background-image: url(ZoobannerLöweGroß.jpg);
+}
+
+.trifold {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	width: 100%
+}
+
+.einfold {
+	width: 33%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.einfold_img_container {
+	height: 200px;
+	width: 75%;
+	background-size: cover;
+	background-position: center;
+}
