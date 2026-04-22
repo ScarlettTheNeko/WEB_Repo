@@ -1,3 +1,11 @@
+:root {
+	--color_main: #006401;
+	--color_background: #D3D3D3;
+	--color_text: #ffffff;
+	--color_accent: #C0DA31;
+	--color_text_accent: #F7D209:
+}
+
 * {
 	padding: 0px;
 	margin: 0px;
