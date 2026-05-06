@@ -12,6 +12,12 @@
 	box-sizing: border-box;
 }
 
+
+body {
+	background-color: var(--color_background);
+
+}
+
 header {
 	width: 100%;
 
@@ -20,10 +26,35 @@ header {
 	align-items: center;
 
 	justify-content: space-between;
+
+	background-color: var(--color_main);
 }
 
 header > img {
 	height: 80px;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	gap: 30px;
+	padding: 10px;
+
+	list-style-type: none;
+}
+
+
+nav > ul > li > a {
+	color: white;
+}
+
+.Patenshop {
+	background-color: rgb(94, 145, 17);
+	color: #C0DA31;
+	border-radius: 7px;
+	padding: 5px;
 }
 
 .großerBanner {
@@ -47,11 +78,55 @@ header > img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	padding: 35px;
 }
 
 .einfold_img_container {
-	height: 200px;
-	width: 75%;
+	height: 350px;
+	width: 70%;
 	background-size: cover;
 	background-position: center;
+}
+
+.einfold_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 35px;
+	gap: 35px;
+	
+	background-color: var(--color_main);
+	width: 70%;
+}
+
+.computeTextDiv {
+	background-color: white;
+	color: black;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	justify-content: center;
+	height: 100px;
+}
+
+.computeTextDiv > p {
+	font-size: larger;
+	width: 75%;
+	text-align: center;
+}
+
+footer {
+	height: 250px;
+	background-color: black;
+	color: white;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 35px;
 }

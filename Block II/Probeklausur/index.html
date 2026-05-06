@@ -4,6 +4,7 @@
 		<title>Meine Website</title>
 		
 		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
 	</head>
 
 	<body>
@@ -11,10 +12,10 @@
 			<img src="ZooLogo.png">
 			<nav>
 				<ul>
-					<a>link 1</a>
-					<a>link 2</a>
-					<a>link 3</a>
-					<a class="Patenshop">Patenshop</a>
+					<li><a>link 1</a></li>
+					<li><a>link 1</a></li>
+					<li><a>link 1</a></li>
+					<li><a class="Patenshop">Patenshop</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -25,22 +26,38 @@
 			<div class="einfold">
 				<div class="einfold_img_container" style="background-image: url(vulture.jpg);">
 				</div>
-				<h2>Adler</h2>
-				<p>text</p>
+				<div class = "einfold_content">
+					<h2>Adler</h2>
+					<p>text</p>
+				</div>
+				
 			</div>
 			<div class="einfold">
 				<div class="einfold_img_container" style="background-image: url(Snake.jpg);">
 				</div>
-				<h2>Schlange</h2>
-				<p>text</p>
+				<div class = "einfold_content">
+					<h2>Schlange</h2>
+					<p>text</p>
+				</div>
 			</div>
 			<div class="einfold">
 				<div class="einfold_img_container" style="background-image: url(Tucan.jpg);">
 				</div>
-				<h2>Tucan</h2>
-				<p>text</p>
+				<div class = "einfold_content">
+					<h2>Tucan</h2>
+					<p>text</p>
+				</div>
+				
 			</div>
 		</div>	
+
+		<div class = "computeTextDiv">
+			<p id="computeTestDivContent"></p>
+		</div>
+
+		<footer>
+			Impressum
+		</footer>
     </body>
 	
 </html>
