@@ -135,7 +135,75 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+
+	justify-content: space-between;
+
+	width: 30%;
+	padding: 50px;
 }
+
+.shopIcon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.shopIconDesc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 50px;
+	gap: 20px;
+}
+
+#productPic {
+	height: 350px;
+}
+
+#nextItem {
+	background-image: url("arrow-24-256.png");
+	background-size: contain;
+
+	width: 30px;
+	height: 30px;
+}
+
+#prevItem {
+	background-image: url("arrow-24-256.png");
+	background-size: contain;
+	transform: scale(-1, -1);
+
+	width: 30px;
+	height: 30px;
+}
+
+#kaufen {
+	background-image: url("buy-256.png");
+	background-size: contain;
+	background-position: center;
+
+	width: 40px;
+	height: 40px;
+}
+
+.tableContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#warenkorbTabelle {
+    width: 50%;
+    table-layout: fixed;
+}
+
+#warenkorbTabelle th,
+#warenkorbTabelle td {
+    width: 25%;
+    text-align: left;
+}
+
 
 main {
 	display: flex;
