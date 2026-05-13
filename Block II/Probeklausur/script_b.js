@@ -9,7 +9,11 @@ let products = [
 let currentIndex = 0;
 let guthaben = 1000;
 let summe = 0;
-let istPate = false;
+let istPremiumPate = false;
+let premiumBorder = 500;
+
+let headerCSS_default = "width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: space-between; background-color: var(--color_main);";
+let headerCSS_premium = headerCSS_default + " border: 5px solid red;";
 
 function main(){
     setProduct();
@@ -93,4 +97,26 @@ function buyItem() {
 
     document.getElementById("Guthaben").innerHTML =
         "Guthaben: " + guthaben.toFixed(2).replace(".", ",") + " €";
+
+    if (checkPremium()) {
+        enablePremium();
+    }
+}
+
+function checkPremium(){
+    if (summe >= premiumBorder) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function enablePremium(){
+    if (!istPremiumPate){
+        window.alert("Du bist jetzt Premium Pate 🎉🎉🎉🎉");
+        istPremiumPate = true;
+    }
+    
+    let header = document.getElementById("header");
+    header.style = headerCSS_premium;
 }

@@ -138,7 +138,7 @@ footer {
 
 	justify-content: space-between;
 
-	width: 30%;
+	width: 35%;
 	padding: 50px;
 }
 
@@ -204,6 +204,9 @@ footer {
     text-align: left;
 }
 
+.main_shop{
+	background-color: var(--color_accent);
+}
 
 main {
 	display: flex;
